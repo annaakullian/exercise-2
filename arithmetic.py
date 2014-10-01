@@ -11,7 +11,7 @@ def multiply(num1, num2):
     return product
 
 def divide(num1, num2):
-    quotient = num1/num2
+    quotient = float(num1)/float(num2)
     return quotient
 
 def square(num1):
